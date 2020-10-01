@@ -4,7 +4,7 @@ import selectors
 import socket
 import time
 
-PORT = 4025
+PORT = 4020
 TIME_OUT = 10
 CHAT_SIZE = 50
 print ("Multi client chat server, using telnet, programmed in Python.")
