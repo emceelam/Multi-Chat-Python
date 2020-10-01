@@ -29,7 +29,7 @@ Unix Network Programming, p210
 '''
 listen_sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1);
 
-listen_sock.bind( ('127.0.0.1', PORT ) )
+listen_sock.bind( ('0.0.0.0', PORT ) )
 listen_sock.listen(5)
 
 selector = selectors.DefaultSelector()
